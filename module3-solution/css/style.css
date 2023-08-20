@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Tahoma, sans-serif, sans-serif;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+#menu {
+  font-size: 175%;
+}
+
+@media (max-width: 575px) {
+  /* .navbar-nav {
+    margin-top: 15px;
+  } */
+  #menu {
+    margin-top: 25px;
+  }
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+#chiken {
+  background-color: rgb(192, 141, 153);
+}
+#beef {
+  background-color: rgb(207, 60, 72);
+  color: white;
+}
+#sushi {
+  background-color: rgb(226, 206, 150);
+}
+p {
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+}
+
+.nav-item:hover {
+  background: #555454;
+}
+.nav-link:hover {
+  color: white;
+}
